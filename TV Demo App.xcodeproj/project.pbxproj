@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3B2F77A27DFDD0200ECBE10 /* TV_Demo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B2F77927DFDD0200ECBE10 /* TV_Demo_AppApp.swift */; };
+		B3B2F77C27DFDD0200ECBE10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B2F77B27DFDD0200ECBE10 /* ContentView.swift */; };
+		B3B2F77E27DFDD0400ECBE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B2F77D27DFDD0400ECBE10 /* Assets.xcassets */; };
+		B3B2F78127DFDD0400ECBE10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B2F78027DFDD0400ECBE10 /* Preview Assets.xcassets */; };
+		B3B2F78B27DFDD0500ECBE10 /* TV_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B2F78A27DFDD0500ECBE10 /* TV_Demo_AppTests.swift */; };
+		B3B2F79527DFDD0500ECBE10 /* TV_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B2F79427DFDD0500ECBE10 /* TV_Demo_AppUITests.swift */; };
+		B3B2F79727DFDD0500ECBE10 /* TV_Demo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B2F79627DFDD0500ECBE10 /* TV_Demo_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3B2F78727DFDD0500ECBE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B2F76E27DFDD0200ECBE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B2F77527DFDD0200ECBE10;
+			remoteInfo = "TV Demo App";
+		};
+		B3B2F79127DFDD0500ECBE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B2F76E27DFDD0200ECBE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B2F77527DFDD0200ECBE10;
+			remoteInfo = "TV Demo App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3B2F77627DFDD0200ECBE10 /* TV Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B2F77927DFDD0200ECBE10 /* TV_Demo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Demo_AppApp.swift; sourceTree = "<group>"; };
+		B3B2F77B27DFDD0200ECBE10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3B2F77D27DFDD0400ECBE10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B2F78027DFDD0400ECBE10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3B2F78627DFDD0500ECBE10 /* TV Demo AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV Demo AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B2F78A27DFDD0500ECBE10 /* TV_Demo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Demo_AppTests.swift; sourceTree = "<group>"; };
+		B3B2F79027DFDD0500ECBE10 /* TV Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B2F79427DFDD0500ECBE10 /* TV_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Demo_AppUITests.swift; sourceTree = "<group>"; };
+		B3B2F79627DFDD0500ECBE10 /* TV_Demo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Demo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B2F77327DFDD0200ECBE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78327DFDD0500ECBE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78D27DFDD0500ECBE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3B2F76D27DFDD0200ECBE10 = {
+			isa = PBXGroup;
+			children = (
+				B3B2F77827DFDD0200ECBE10 /* TV Demo App */,
+				B3B2F78927DFDD0500ECBE10 /* TV Demo AppTests */,
+				B3B2F79327DFDD0500ECBE10 /* TV Demo AppUITests */,
+				B3B2F77727DFDD0200ECBE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B2F77727DFDD0200ECBE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2F77627DFDD0200ECBE10 /* TV Demo App.app */,
+				B3B2F78627DFDD0500ECBE10 /* TV Demo AppTests.xctest */,
+				B3B2F79027DFDD0500ECBE10 /* TV Demo AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B2F77827DFDD0200ECBE10 /* TV Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2F77927DFDD0200ECBE10 /* TV_Demo_AppApp.swift */,
+				B3B2F77B27DFDD0200ECBE10 /* ContentView.swift */,
+				B3B2F77D27DFDD0400ECBE10 /* Assets.xcassets */,
+				B3B2F77F27DFDD0400ECBE10 /* Preview Content */,
+			);
+			path = "TV Demo App";
+			sourceTree = "<group>";
+		};
+		B3B2F77F27DFDD0400ECBE10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2F78027DFDD0400ECBE10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3B2F78927DFDD0500ECBE10 /* TV Demo AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2F78A27DFDD0500ECBE10 /* TV_Demo_AppTests.swift */,
+			);
+			path = "TV Demo AppTests";
+			sourceTree = "<group>";
+		};
+		B3B2F79327DFDD0500ECBE10 /* TV Demo AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2F79427DFDD0500ECBE10 /* TV_Demo_AppUITests.swift */,
+				B3B2F79627DFDD0500ECBE10 /* TV_Demo_AppUITestsLaunchTests.swift */,
+			);
+			path = "TV Demo AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B2F77527DFDD0200ECBE10 /* TV Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B2F79A27DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo App" */;
+			buildPhases = (
+				B3B2F77227DFDD0200ECBE10 /* Sources */,
+				B3B2F77327DFDD0200ECBE10 /* Frameworks */,
+				B3B2F77427DFDD0200ECBE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Demo App";
+			productName = "TV Demo App";
+			productReference = B3B2F77627DFDD0200ECBE10 /* TV Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3B2F78527DFDD0500ECBE10 /* TV Demo AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B2F79D27DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo AppTests" */;
+			buildPhases = (
+				B3B2F78227DFDD0500ECBE10 /* Sources */,
+				B3B2F78327DFDD0500ECBE10 /* Frameworks */,
+				B3B2F78427DFDD0500ECBE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B2F78827DFDD0500ECBE10 /* PBXTargetDependency */,
+			);
+			name = "TV Demo AppTests";
+			productName = "TV Demo AppTests";
+			productReference = B3B2F78627DFDD0500ECBE10 /* TV Demo AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3B2F78F27DFDD0500ECBE10 /* TV Demo AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B2F7A027DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo AppUITests" */;
+			buildPhases = (
+				B3B2F78C27DFDD0500ECBE10 /* Sources */,
+				B3B2F78D27DFDD0500ECBE10 /* Frameworks */,
+				B3B2F78E27DFDD0500ECBE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B2F79227DFDD0500ECBE10 /* PBXTargetDependency */,
+			);
+			name = "TV Demo AppUITests";
+			productName = "TV Demo AppUITests";
+			productReference = B3B2F79027DFDD0500ECBE10 /* TV Demo AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B2F76E27DFDD0200ECBE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B3B2F77527DFDD0200ECBE10 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B3B2F78527DFDD0500ECBE10 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B3B2F77527DFDD0200ECBE10;
+					};
+					B3B2F78F27DFDD0500ECBE10 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B3B2F77527DFDD0200ECBE10;
+					};
+				};
+			};
+			buildConfigurationList = B3B2F77127DFDD0200ECBE10 /* Build configuration list for PBXProject "TV Demo App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3B2F76D27DFDD0200ECBE10;
+			productRefGroup = B3B2F77727DFDD0200ECBE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B2F77527DFDD0200ECBE10 /* TV Demo App */,
+				B3B2F78527DFDD0500ECBE10 /* TV Demo AppTests */,
+				B3B2F78F27DFDD0500ECBE10 /* TV Demo AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B2F77427DFDD0200ECBE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B2F78127DFDD0400ECBE10 /* Preview Assets.xcassets in Resources */,
+				B3B2F77E27DFDD0400ECBE10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78427DFDD0500ECBE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78E27DFDD0500ECBE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B2F77227DFDD0200ECBE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B2F77C27DFDD0200ECBE10 /* ContentView.swift in Sources */,
+				B3B2F77A27DFDD0200ECBE10 /* TV_Demo_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78227DFDD0500ECBE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B2F78B27DFDD0500ECBE10 /* TV_Demo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B2F78C27DFDD0500ECBE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B2F79527DFDD0500ECBE10 /* TV_Demo_AppUITests.swift in Sources */,
+				B3B2F79727DFDD0500ECBE10 /* TV_Demo_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B2F78827DFDD0500ECBE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B2F77527DFDD0200ECBE10 /* TV Demo App */;
+			targetProxy = B3B2F78727DFDD0500ECBE10 /* PBXContainerItemProxy */;
+		};
+		B3B2F79227DFDD0500ECBE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B2F77527DFDD0200ECBE10 /* TV Demo App */;
+			targetProxy = B3B2F79127DFDD0500ECBE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3B2F79827DFDD0500ECBE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		B3B2F79927DFDD0500ECBE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B2F79B27DFDD0500ECBE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TV Demo App/Preview Content\"";
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		B3B2F79C27DFDD0500ECBE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TV Demo App/Preview Content\"";
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		B3B2F79E27DFDD0500ECBE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Demo App.app/TV Demo App";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		B3B2F79F27DFDD0500ECBE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Demo App.app/TV Demo App";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		B3B2F7A127DFDD0500ECBE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "TV Demo App";
+			};
+			name = Debug;
+		};
+		B3B2F7A227DFDD0500ECBE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334VYUXU36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StevePlavetzky.TV-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "TV Demo App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B2F77127DFDD0200ECBE10 /* Build configuration list for PBXProject "TV Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B2F79827DFDD0500ECBE10 /* Debug */,
+				B3B2F79927DFDD0500ECBE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B2F79A27DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B2F79B27DFDD0500ECBE10 /* Debug */,
+				B3B2F79C27DFDD0500ECBE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B2F79D27DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B2F79E27DFDD0500ECBE10 /* Debug */,
+				B3B2F79F27DFDD0500ECBE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B2F7A027DFDD0500ECBE10 /* Build configuration list for PBXNativeTarget "TV Demo AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B2F7A127DFDD0500ECBE10 /* Debug */,
+				B3B2F7A227DFDD0500ECBE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B2F76E27DFDD0200ECBE10 /* Project object */;
+}
