@@ -11,7 +11,7 @@ import SwiftUI
 struct TV_Demo_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TVDemoTabView()
         }
     }
 }
