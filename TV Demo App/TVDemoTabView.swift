@@ -9,20 +9,23 @@ import SwiftUI
 
 struct TVDemoTabView: View {
     var body: some View {
-        TabView{
-            HomeView()
-                .tabItem {
-                    Text("Home")
-                }
-            SearchView()
-                .tabItem {
-                    Text("Search")
-                }
-            ProfileView()
-                .tabItem {
-                    Text("Profile")
-                }
+        NavigationView{
+            TabView{
+                HomeView()
+                    .tabItem {
+                        Text("Home")
+                    }
+                SearchView()
+                    .tabItem {
+                        Text("Search")
+                    }
+                ProfileView()
+                    .tabItem {
+                        Text("Profile")
+                    }
+            }
         }
+
     }
 }
 
